@@ -2090,7 +2090,12 @@ img{
 	color:#ffffff;
 	font-family: "Chivo", sans-serif;
 	margin-bottom: 18px;
+	background-color: #070707;
+	opacity: 0.9;
+	border-radius: 25px;
 }
+
+
 
 .fun-fact-section .count-box .counter-title{
 	position: relative;
@@ -2100,6 +2105,9 @@ img{
 	font-weight:500;
 	color:#43c3ea;
 	font-family: 'Roboto', sans-serif;
+	background-color: #070707;
+	opacity: 0.9;
+	border-radius: 25px;
 }
 
 /*** 
