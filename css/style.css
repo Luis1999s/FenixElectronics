@@ -934,7 +934,7 @@ img{
 @media (max-width: 501px) {
 	.header-style-two .info-box{
 		float: right;
-		padding-left: 1px;
+		padding-left: 20px;
 		margin-left: 0px;
 		
 	}
