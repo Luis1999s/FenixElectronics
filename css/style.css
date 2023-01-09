@@ -905,7 +905,7 @@ img{
 
 .header-style-two .logo-outer{
 	
-	padding: 45px 0px;
+	padding: auto 0px;
 }
 
 .header-style-two .logo-outer .logo img{
@@ -917,7 +917,7 @@ img{
 .header-style-two .header-upper .upper-right{
 	position:-webkit-sticky;
 	float: right;
-	padding-top:45px;
+	padding:45px;
 }
 
 .header-style-two .info-box{
@@ -927,6 +927,17 @@ img{
 	padding-left: 80px;
 	margin-left: 40px;
 	min-height:50px;
+	
+	padding-bottom: 15px;
+}
+
+@media (max-width: 501px) {
+	.header-style-two .info-box{
+		float: right;
+		padding-left: 1px;
+		margin-left: 0px;
+		
+	}
 }
 
 .header-style-two .info-box .icon-box{
@@ -946,6 +957,8 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	transition:all 300ms ease;
+	background-color: #009fe9;
+	opacity: 90%;
 }
 
 .header-style-two .info-box li{
@@ -2040,10 +2053,11 @@ img{
 
 .fun-fact-section{
 	position: relative;
+	background-image: url(../images/CIRCUITO.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	padding:100px 0 60px;
+	padding:40px 0 30px;
 }
 
 .fun-fact-section:before{
