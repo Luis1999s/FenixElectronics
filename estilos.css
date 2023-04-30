@@ -7,29 +7,25 @@ h6{
         color: white;
 		
 	}
-
-section {
- display: flex;
- width: 600px;
- height: 430px;
 }
 
-section img  {
-   width: 0px;
-   flex-grow: 1;
-   object-fit: cover;
-   opacity: .8;
-   transition: .5s ease; 
+dan {
+    display:flex;
+    width:autopx;
+    height:430px;
 }
 
-section img:hover {
+dan  img {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+dan img:hover {
     cursor: crosshair;
     width: 300px;
     opacity: 1;
     filter: contrast(120%);
 }
-<section>
-    <img src="images/consolas.jpg">
-    <img src="images/c.jpg">
-    <img src="images/tablet.jpg">
-</section>
