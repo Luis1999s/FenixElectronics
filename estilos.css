@@ -1,10 +1,31 @@
 h6{
-    color: black;
-    font-weight:900
+    color: white;
+    font-weight:550
 }
 @media (max-width: 1023px) {
 	h6{
         color: white;
 		
 	}
+}
+
+dan {
+    display:flex;
+    width:autopx;
+    height:430px;
+}
+
+dan  img {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+dan img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
 }
