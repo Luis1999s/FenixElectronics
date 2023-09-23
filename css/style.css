@@ -3002,7 +3002,7 @@ img{
 	-moz-box-shadow: 0 0 40px rgba(0,0,0,0.10);
 	-ms-box-shadow: 0 0 40px rgba(0,0,0,0.10);
 	-o-box-shadow: 0 0 40px rgba(0,0,0,0.10);
-	box-shadow: 0 0 40px rgba(0,0,0,0.10);
+	box-shadow: 0 0 40px #007bff;
 }
 
 .appointment-form .title-box{
@@ -7114,7 +7114,7 @@ a.ui-button:active, .ui-button:active,
 ====================================================================
 
 ***/
-login-section{
+.login-section{
 	position:relative;
 	padding:120px 0px 80px;
 }
