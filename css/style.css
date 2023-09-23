@@ -2990,7 +2990,7 @@ img{
 .call-back-section .form-column .inner-column{
 	position: relative;
 	background-color: #43c3ea;
-	margin-left: 16px;
+	margin-left: -30px;
 }
 
 .appointment-form{
@@ -7114,8 +7114,7 @@ a.ui-button:active, .ui-button:active,
 ====================================================================
 
 ***/
-
-.login-section{
+login-section{
 	position:relative;
 	padding:120px 0px 80px;
 }
@@ -7163,7 +7162,7 @@ a.ui-button:active, .ui-button:active,
 .login-form .form-group input[type="password"],
 .login-form .form-group input[type="tel"],
 .login-form .form-group input[type="email"]{
-	position:relative;
+	position:fixed;
 	display:block;
 	width:100%;
 	line-height:28px;
@@ -7218,64 +7217,3 @@ a.ui-button:active, .ui-button:active,
 .login-form ::-webkit-input-placeholder{color: #bbbbbb;}
 .login-form ::-moz-input-placeholder{color: #bbbbbb;}
 .login-form ::-ms-input-placeholder{color: #bbbbbb;}
-
-
-body {
-    font: 13px/1.85em 'Open Sans', Arial, Helvetice Neue, sans-serif;
-    color: #888888;
-    font-weight: 300;
-    font-style: normal;
-    -webkit-font-smoothing: antialiased;
- /* Fix for webkit rendering */
-    -webkit-text-size-adjust: 100%;
-    background: #282828;
-}
-
-.templatemo_contacttitle {
-    width: 100%;
-    margin-bottom: 10px;
-    font-size: 32px;
-    font-weight: bold;
-    color: #ffffff;
-    text-align: center;
-}
-
-.templatemo_sub_contacttitle {
-    width: 100%;
-    font-size: 22px;
-    color: #91bf24;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.templatemo_contact {
-    margin: 30px;
-    width: 100%;
-    margin-left: 15%;
-}
-
-.templatemo_contactform input, textarea {
-    width: 100%;
-    background: #282828;
-    border: 1px solid #393939;
-    padding: 7px 10px;
-    margin: 0px 0px 10px 0px;
-    background-color: #FAFAFA;
-}
-
-.templatemo_contactform textarea {
-    height: 100px;
-}
-
-
-.templatemo_contactform .btn-primary {
-    background: #92bf24;
-    border: none;
-    border-radius: 0px;
-    color: #3d5602;
-    font-weight: 800;
-}
-
-.templatemo_contactform .btn-primary:hover {
-    background: #a6d82c;
-}
